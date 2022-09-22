@@ -1,0 +1,24 @@
+{
+    "name": "com.magnetic3d",
+    "version": "1.0.0",
+    "displayName": "Magnetic3D Camera",
+    "description": "Multiview Camera Rig Plugin",
+    "unity": "2020.3",
+    "unityRelease": "33f1",
+    "documentationUrl": "https://magnetic3d.com/",
+    "changelogUrl": "https://magnetic3d.com/",
+    "licensesUrl": "https://magnetic3d.com/",
+    "dependencies": {
+      "com.unity.ugui": "1.0.0"
+   },
+   "keywords": [
+      "Camera",
+      "Rendering",
+      "Holographic"
+    ],
+    "author": {
+      "name": "Magnetic3D",
+      "email": "info@magnetic3d.com",
+      "url": "https://magnetic3d.com/"
+    }
+  }
