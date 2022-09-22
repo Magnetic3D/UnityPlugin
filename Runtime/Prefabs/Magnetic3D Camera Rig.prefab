@@ -40,7 +40,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243450746607029727}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -48,8 +48,8 @@ Camera:
   m_GateFitMode: 2
   m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0.013390139, y: 0}
-  m_FocalLength: 40.2
+  m_LensShift: {x: -0.0000209397, y: 0}
+  m_FocalLength: 0.10472272
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -58,7 +58,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 33.241512
+  field of view: 179
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -66,7 +66,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 55
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 3c62717740e39434fb9805eaead15fe4, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 39c85b3911276fc4fbe0739219cef1a6, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -263,7 +263,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243450746623434332}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -271,8 +271,8 @@ Camera:
   m_GateFitMode: 2
   m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: -0.004418746, y: 0}
-  m_FocalLength: 40.2
+  m_LensShift: {x: 0.0000069101015, y: 0}
+  m_FocalLength: 0.10472272
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -281,7 +281,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 33.241512
+  field of view: 179
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -289,7 +289,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 55
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 0f1db010f35844f4e9b2ee291a058b8e, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 8af7e87b186c70c40b59916dc45a8634, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -456,7 +456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 243450746670473859}
   - component: {fileID: 1556864193417885762}
-  - component: {fileID: 3802864411130206551}
+  - component: {fileID: 7088400719238298657}
   m_Layer: 0
   m_Name: Magnetic3D Camera Rig
   m_TagString: Untagged
@@ -489,7 +489,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243450746670473869}
   m_Enabled: 1
---- !u!114 &3802864411130206551
+--- !u!114 &7088400719238298657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -498,15 +498,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 243450746670473869}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -891263335, guid: a80b03ec60e3c8c4f8b8d673fd2b7fb7, type: 3}
+  m_Script: {fileID: -891263335, guid: 5cddc5999e007834b994c67111aa3d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_isRegistered: 1
-  cameraType: 2
+  cameraType: 0
   displayOrientation: 0
-  focalLength: 40.2
+  focalLength: 0
   interOcularDistance: 0.1
-  showVisualAids: 1
+  showVisualAids: 0
   horizontalPixels: 3840
   verticalPixels: 2160
   gizmoThickness: 0.5
@@ -514,7 +514,7 @@ MonoBehaviour:
   outputImage: {fileID: 6279875378051222267}
   overrideCalculatedValues: 0
   manualCameraSeparation: 0.1
-  manualFilmOffset: 0.013390139
+  manualFilmOffset: -0.0000209397
   childCameras:
   - {fileID: 243450748209489740}
   - {fileID: 243450747758175677}
@@ -524,39 +524,39 @@ MonoBehaviour:
   - {fileID: 243450746728888337}
   - {fileID: 243450746607029714}
   multiviewTextures:
-  - {fileID: 8400000, guid: 6ac98951459c1804aaf0fa816cdfe257, type: 2}
-  - {fileID: 8400000, guid: 2dc74304f80652343a5b89909e614600, type: 2}
-  - {fileID: 8400000, guid: 0f1db010f35844f4e9b2ee291a058b8e, type: 2}
-  - {fileID: 8400000, guid: 13c5ed75a403392468430d887ee2383c, type: 2}
-  - {fileID: 8400000, guid: c8c5c13d549a30949bcf2b87d6ad916b, type: 2}
-  - {fileID: 8400000, guid: 4bd4167608a005744ab8b678a011af8d, type: 2}
-  - {fileID: 8400000, guid: 3c62717740e39434fb9805eaead15fe4, type: 2}
+  - {fileID: 8400000, guid: 4794e6625ed740f498fc6e94ea45e331, type: 2}
+  - {fileID: 8400000, guid: cce76969ec2fef448b91a73145636f02, type: 2}
+  - {fileID: 8400000, guid: 8af7e87b186c70c40b59916dc45a8634, type: 2}
+  - {fileID: 8400000, guid: ddc16542173275340a0c372fac31b7fb, type: 2}
+  - {fileID: 8400000, guid: d7db95435ef0dfb449506a94ed3d2bc9, type: 2}
+  - {fileID: 8400000, guid: fb60a79176603644481d79909955aed4, type: 2}
+  - {fileID: 8400000, guid: 39c85b3911276fc4fbe0739219cef1a6, type: 2}
   multiviewTexturesPortrait:
-  - {fileID: 8400000, guid: b2a9a1005c0e89a4ead6e694f016cd20, type: 2}
-  - {fileID: 8400000, guid: ec9fbefc236ad724a99b9054eef76c2a, type: 2}
-  - {fileID: 8400000, guid: e45ec54f02e352d4c84b6d73e290f97b, type: 2}
-  - {fileID: 8400000, guid: c5996ee67957750499c1441af1a8f8c6, type: 2}
-  - {fileID: 8400000, guid: 01c606ac1af0ceb48bbf8c89e6978463, type: 2}
-  - {fileID: 8400000, guid: 69130bcaa1106b34da708eecac1dd98b, type: 2}
-  - {fileID: 8400000, guid: fe1e1e41d55d8ca468945c2ded519169, type: 2}
+  - {fileID: 8400000, guid: acd7fdcf2ad3fc843873ca226b7a0aec, type: 2}
+  - {fileID: 8400000, guid: 335bfdd97d95fd446b0dc0c66eeee37d, type: 2}
+  - {fileID: 8400000, guid: 06a662d8b4bc4c44b9fd4a1212f9ea9a, type: 2}
+  - {fileID: 8400000, guid: da1c03dc0e339b847a4877dfd4817260, type: 2}
+  - {fileID: 8400000, guid: 257dd899c86792549a8aeb79241f7b9d, type: 2}
+  - {fileID: 8400000, guid: 4558626a690c8a44989798357ed418e1, type: 2}
+  - {fileID: 8400000, guid: 63497c886a8e4274ea328dfb41ebb6ff, type: 2}
   stereoTextures:
-  - {fileID: 8400000, guid: 33149fa854d605a4999e3ef7e8e4232c, type: 2}
-  - {fileID: 8400000, guid: 90c0007bbc0b89b4fa5e53e45093ce17, type: 2}
+  - {fileID: 8400000, guid: c1654dfe2ba0c2e43b34f6aab90f26dd, type: 2}
+  - {fileID: 8400000, guid: 69d54482ad27e584a9a41c705ab142bd, type: 2}
   monoTextures:
-  - {fileID: 8400000, guid: 889f9fe6b6c74574fa31d39770e15e84, type: 2}
+  - {fileID: 8400000, guid: 22f0ed062133ade419423cfd473aa423, type: 2}
   interleavedTextures:
-  - {fileID: 8400000, guid: 203a2e62e7afb3b45869c352f1418fb4, type: 2}
-  - {fileID: 8400000, guid: f24168e8bd1bfc14e9bfc81bf42e70ce, type: 2}
-  M3DUICanvas: {fileID: 0}
-  M3DUICamera: {fileID: 0}
-  M3DUITexture: {fileID: 8400000, guid: c276875b19a9b724ebd9a0afb3270b4b, type: 2}
-  M3DUIPortraitTexture: {fileID: 8400000, guid: e4e2c545f700adc47a858428b5a29c22, type: 2}
-  emptyTexture: {fileID: 8400000, guid: 16082cb90c96096449c535bc1a9c04cf, type: 2}
-  multiviewMaterial: {fileID: 2100000, guid: ee268bc0341195646bb0937b13e6e56c, type: 2}
-  multiviewPortraitMaterial: {fileID: 2100000, guid: ca5adf832c4037e4f8d267cbac37b196, type: 2}
-  stereoMaterial: {fileID: 2100000, guid: 4a5f7553b45821240931527c76792994, type: 2}
-  monoMaterial: {fileID: 2100000, guid: df2d1ec15c1895a40a17393f57ce2167, type: 2}
-  tabletMaterial: {fileID: 2100000, guid: 36d265ca1dec8a649b8258466044f878, type: 2}
+  - {fileID: 8400000, guid: ad891b5ceed979f4b882c0a0448d08bc, type: 2}
+  - {fileID: 8400000, guid: e0c41e5607efb7f4a9b7d34ad65515b4, type: 2}
+  M3DUICanvas: {fileID: 7104379066486038121}
+  M3DUICamera: {fileID: 56582053770352931}
+  M3DUITexture: {fileID: 8400000, guid: 4375293b10ad67746a1e8196d986880b, type: 2}
+  M3DUIPortraitTexture: {fileID: 8400000, guid: 84ea73729c80eec46ae092a4efa2267d, type: 2}
+  emptyTexture: {fileID: 8400000, guid: 13834ca29404f564093bc3a41337fd70, type: 2}
+  multiviewMaterial: {fileID: 2100000, guid: 3e97edd621c56fa4ab67d0ca3072a2d8, type: 2}
+  multiviewPortraitMaterial: {fileID: 2100000, guid: e96a51718a9d1df4b832cead860ba4fe, type: 2}
+  stereoMaterial: {fileID: 2100000, guid: bed9911d932f6a64794000b3ef321e6b, type: 2}
+  monoMaterial: {fileID: 2100000, guid: dbdd91da8bf961e4994c49c8ac7361c5, type: 2}
+  tabletMaterial: {fileID: 2100000, guid: 0a9d12358c7efb44ea8bfe5039a86e3e, type: 2}
   scalingFactor: 0.01
   gizmoScale: 0.01
   filmOffsetScale: 0.1
@@ -565,15 +565,15 @@ MonoBehaviour:
   gizmoAspect: 1.7777
   _centerPosition: {x: 0, y: 0, z: 0}
   focusCorners:
-  - {x: -11.19403, y: -6.296642, z: 25}
-  - {x: -11.19403, y: 6.296642, z: 25}
-  - {x: 11.19403, y: 6.296642, z: 25}
-  - {x: 11.19403, y: -6.296642, z: 25}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
   depthCorners:
-  - {x: -25.898605, y: -14.567966, z: 57.84022}
-  - {x: -25.898605, y: 14.567966, z: 57.84022}
-  - {x: 25.898605, y: 14.567966, z: 57.84022}
-  - {x: 25.898605, y: -14.567966, z: 57.84022}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
   focusLine: {r: 0, g: 0, b: 1, a: 1}
   depthLine: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &243450746728888338
@@ -616,7 +616,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243450746728888338}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -624,8 +624,8 @@ Camera:
   m_GateFitMode: 2
   m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0.008837492, y: 0}
-  m_FocalLength: 40.2
+  m_LensShift: {x: -0.000013820203, y: 0}
+  m_FocalLength: 0.10472272
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -634,7 +634,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 33.241512
+  field of view: 179
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -642,7 +642,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 55
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 4bd4167608a005744ab8b678a011af8d, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: fb60a79176603644481d79909955aed4, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -839,7 +839,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243450747441771118}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -847,8 +847,8 @@ Camera:
   m_GateFitMode: 2
   m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0.004418746, y: 0}
-  m_FocalLength: 40.2
+  m_LensShift: {x: -0.0000069101015, y: 0}
+  m_FocalLength: 0.10472272
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -857,7 +857,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 33.241512
+  field of view: 179
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -865,7 +865,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 55
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: c8c5c13d549a30949bcf2b87d6ad916b, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: d7db95435ef0dfb449506a94ed3d2bc9, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -1062,7 +1062,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243450747758175678}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -1070,8 +1070,8 @@ Camera:
   m_GateFitMode: 2
   m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: -0.008837492, y: 0}
-  m_FocalLength: 40.2
+  m_LensShift: {x: 0.000013820203, y: 0}
+  m_FocalLength: 0.10472272
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1080,7 +1080,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 33.241512
+  field of view: 179
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -1088,7 +1088,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 55
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 2dc74304f80652343a5b89909e614600, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: cce76969ec2fef448b91a73145636f02, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -1294,7 +1294,7 @@ Camera:
   m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 40.2
+  m_FocalLength: 0.10472272
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1303,7 +1303,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 33.241512
+  field of view: 179
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -1311,7 +1311,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 55
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 889f9fe6b6c74574fa31d39770e15e84, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: ddc16542173275340a0c372fac31b7fb, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -1508,7 +1508,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243450748209489737}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -1516,8 +1516,8 @@ Camera:
   m_GateFitMode: 2
   m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: -0.013390139, y: 0}
-  m_FocalLength: 40.2
+  m_LensShift: {x: 0.0000209397, y: 0}
+  m_FocalLength: 0.10472272
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1526,7 +1526,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 33.241512
+  field of view: 179
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -1534,7 +1534,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 55
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 6ac98951459c1804aaf0fa816cdfe257, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 4794e6625ed740f498fc6e94ea45e331, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -1703,7 +1703,6 @@ GameObject:
   - component: {fileID: 56582053770352931}
   - component: {fileID: 4986130293835343272}
   - component: {fileID: -3545024012797283967}
-  - component: {fileID: 1533490525}
   m_Layer: 6
   m_Name: Output Camera
   m_TagString: Untagged
@@ -1758,7 +1757,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 64
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 4375293b10ad67746a1e8196d986880b, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -1915,120 +1914,6 @@ MonoBehaviour:
       data1: 0
       data2: 0
   defaultFrameSettings: 0
---- !u!114 &1533490525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3720898363539945063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 7
-  m_ObsoleteRenderingPath: 0
-  m_ObsoleteFrameSettings:
-    overrides: 0
-    enableShadow: 0
-    enableContactShadows: 0
-    enableShadowMask: 0
-    enableSSR: 0
-    enableSSAO: 0
-    enableSubsurfaceScattering: 0
-    enableTransmission: 0
-    enableAtmosphericScattering: 0
-    enableVolumetrics: 0
-    enableReprojectionForVolumetrics: 0
-    enableLightLayers: 0
-    enableExposureControl: 1
-    diffuseGlobalDimmer: 0
-    specularGlobalDimmer: 0
-    shaderLitMode: 0
-    enableDepthPrepassWithDeferredRendering: 0
-    enableTransparentPrepass: 0
-    enableMotionVectors: 0
-    enableObjectMotionVectors: 0
-    enableDecals: 0
-    enableRoughRefraction: 0
-    enableTransparentPostpass: 0
-    enableDistortion: 0
-    enablePostprocess: 0
-    enableOpaqueObjects: 0
-    enableTransparentObjects: 0
-    enableRealtimePlanarReflection: 0
-    enableMSAA: 0
-    enableAsyncCompute: 0
-    runLightListAsync: 0
-    runSSRAsync: 0
-    runSSAOAsync: 0
-    runContactShadowsAsync: 0
-    runVolumeVoxelizationAsync: 0
-    lightLoopSettings:
-      overrides: 0
-      enableDeferredTileAndCluster: 0
-      enableComputeLightEvaluation: 0
-      enableComputeLightVariants: 0
-      enableComputeMaterialVariants: 0
-      enableFptlForForwardOpaque: 0
-      enableBigTilePrepass: 0
-      isFptlEnabled: 0
-  clearColorMode: 0
-  backgroundColorHDR: {r: 0.025, g: 0.07, b: 0.19, a: 0}
-  clearDepth: 1
-  volumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  volumeAnchorOverride: {fileID: 0}
-  antialiasing: 0
-  SMAAQuality: 2
-  dithering: 0
-  stopNaNs: 0
-  taaSharpenStrength: 0.5
-  TAAQuality: 1
-  taaHistorySharpening: 0.35
-  taaAntiFlicker: 0.5
-  taaMotionVectorRejection: 0
-  taaAntiHistoryRinging: 0
-  physicalParameters:
-    m_Iso: 200
-    m_ShutterSpeed: 0.005
-    m_Aperture: 16
-    m_BladeCount: 5
-    m_Curvature: {x: 2, y: 11}
-    m_BarrelClipping: 0.25
-    m_Anamorphism: 0
-  flipYMode: 0
-  xrRendering: 1
-  fullscreenPassthrough: 0
-  allowDynamicResolution: 0
-  customRenderingSettings: 0
-  invertFaceCulling: 0
-  probeLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  hasPersistentHistory: 0
-  exposureTarget: {fileID: 0}
-  m_RenderingPathCustomFrameSettings:
-    bitDatas:
-      data1: 72198262773251917
-      data2: 13763000468760363032
-    lodBias: 1
-    lodBiasMode: 0
-    lodBiasQualityLevel: 0
-    maximumLODLevel: 0
-    maximumLODLevelMode: 0
-    maximumLODLevelQualityLevel: 0
-    sssQualityMode: 0
-    sssQualityLevel: 0
-    sssCustomSampleBudget: 20
-    materialQuality: 0
-  renderingPathCustomFrameSettingsOverrideMask:
-    mask:
-      data1: 0
-      data2: 0
-  defaultFrameSettings: 0
 --- !u!1 &4618640557140314504
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,7 +1923,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5239763835734795658}
-  - component: {fileID: 6341589870367598452}
+  - component: {fileID: 7375520015425436094}
   m_Layer: 0
   m_Name: Child Cameras
   m_TagString: Untagged
@@ -2067,7 +1952,7 @@ Transform:
   m_Father: {fileID: 243450746670473859}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6341589870367598452
+--- !u!114 &7375520015425436094
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2076,7 +1961,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4618640557140314504}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -998073319, guid: a80b03ec60e3c8c4f8b8d673fd2b7fb7, type: 3}
+  m_Script: {fileID: -998073319, guid: 5cddc5999e007834b994c67111aa3d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5288574328831469895
@@ -2136,7 +2021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: df2d1ec15c1895a40a17393f57ce2167, type: 2}
+  m_Material: {fileID: 2100000, guid: 3e97edd621c56fa4ab67d0ca3072a2d8, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}

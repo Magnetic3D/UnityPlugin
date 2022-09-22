@@ -15,16 +15,14 @@ MonoBehaviour:
   version: 1
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M3dInterleavedMat
-  m_Shader: {fileID: -6465566751694194690, guid: 1b80499d564fdad4898b3b4a9fc7b16e,
-    type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_Shader: {fileID: -6465566751694194690, guid: 1b80499d564fdad4898b3b4a9fc7b16e, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -100,7 +98,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _leftimage:
-        m_Texture: {fileID: 8400000, guid: 203a2e62e7afb3b45869c352f1418fb4, type: 2}
+        m_Texture: {fileID: 8400000, guid: ad891b5ceed979f4b882c0a0448d08bc, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _mask:
@@ -108,7 +106,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _rightimage:
-        m_Texture: {fileID: 8400000, guid: f24168e8bd1bfc14e9bfc81bf42e70ce, type: 2}
+        m_Texture: {fileID: 8400000, guid: e0c41e5607efb7f4a9b7d34ad65515b4, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ui:
@@ -127,7 +125,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
@@ -208,6 +205,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 12
-  hdPluginSubTargetMaterialVersions:
-    m_Keys: []
-    m_Values: 
