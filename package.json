@@ -1,6 +1,6 @@
 {
     "name": "com.magnetic3d",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Magnetic3D Camera",
     "description": "Multiview Camera Rig Plugin",
     "unity": "2020.3",
