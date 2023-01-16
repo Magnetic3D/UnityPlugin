@@ -10,6 +10,8 @@
     "licensesUrl": "https://magnetic3d.com/",
     "dependencies": {
       "com.unity.ugui": "1.0.0"
+      "com.unity.ugui": "1.0.0",
+      "com.unity.shadergraph": "10.8.1"
    },
    "keywords": [
       "Camera",
